@@ -1,0 +1,25 @@
+.codingPlatform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    transition: all 0.5s;
+    padding: 1vmax;
+    
+}
+.codingPlatform>img{
+    width: inherit;
+}
+a img{
+    margin: 50px 50px 0 0;
+}
+a img:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0,0,0,0.329);
+    }
+@media screen and (max-width: 768px){
+    .codingPlatform{
+        width: 200px;
+        flex-wrap: wrap;
+    }
+}
