@@ -36,6 +36,7 @@ function App() {
   return (
     <Router>
       {
+<<<<<<< HEAD
         loading ? (<div class="loading-container">
         <div class="cube">
             <div class="face front"></div>
@@ -46,6 +47,9 @@ function App() {
             <div class="face bottom"></div>
         </div>
     </div>):
+=======
+        loading ? <div>Loading...</div>:
+>>>>>>> 5672acab5cf969a6ec0a9744f950a5b02c3b7a67
           ( 
             <>
               <Header/>
