@@ -1,0 +1,108 @@
+.about{
+    background-color: hsl(219, 48%, 8%);
+    min-height: 100vh;
+    display: flex;
+}
+
+.aboutContainer{
+    background-color: aliceblue;
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    right: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2vmax;
+    box-sizing: border-box;
+}
+
+.aboutContainer>p{
+    text-align: right;
+    width: 30%;
+    margin-right: 0;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 60px;
+    font-size: 2vmax;
+    color: rgb(30, 9, 49);
+}
+
+.aboutContainer2{
+    width: 60%;
+    background-color: aliceblue;
+    box-shadow: 0 0 15px rgba(0,0,0,0.281);
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 2rem;
+    display: flex;
+    transform: translateX(-100vw) translateY(-10%) rotateZ(360deg);
+    animation: aboutAnimation 1s ease-in forwards;
+}
+
+.aboutContainer2>div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: rgb(18, 16, 16);
+    box-sizing: border-box;
+}
+
+.aboutContainer2>div:first-child{
+    align-items: center;
+}
+
+.aboutContainer2>div:last-child{
+    height: 100%;
+}
+.aboutAvatar{
+    width: 250px;
+    height: 300px;
+    transition: all 1s;
+    border-radius: 50%;
+}
+.aboutAvatar:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.289);
+}
+
+@media screen and (max-width: 768px) {
+    .about{
+        align-items: flex-end;
+    }
+    .aboutContainer{
+        width: 100%;
+        display: none;
+    }
+    .aboutContainer2{
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+        animation: aboutAnimationPhone 1s ease-in forwards;
+    }
+    .aboutContainer2>div:last-child>p{
+        text-align: center !important;
+    }
+    .aboutAvatar{
+        width: 120px;
+        height: 150px;
+        transform: translateY(-60%);
+    }
+}
+
+
+
+@keyframes aboutAnimation {
+    to{
+        transform: translateX(20%);
+    }
+    
+}
+
+@keyframes aboutAnimationPhone {
+    to{
+        transform: translateX(0) translateY(0);
+    }
+}
