@@ -1,15 +1,14 @@
 {
-<<<<<<< HEAD
   "main.css": "/static/css/main.c467da7a.chunk.css",
-  "main.js": "/static/js/main.7c97345d.chunk.js",
-  "main.js.map": "/static/js/main.7c97345d.chunk.js.map",
+  "main.js": "/static/js/main.1f63ec75.chunk.js",
+  "main.js.map": "/static/js/main.1f63ec75.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/css/2.8296753c.chunk.css": "/static/css/2.8296753c.chunk.css",
   "static/js/2.56247486.chunk.js": "/static/js/2.56247486.chunk.js",
   "static/js/2.56247486.chunk.js.map": "/static/js/2.56247486.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.085e103385b2de8d59ef840e3a529e16.js": "/precache-manifest.085e103385b2de8d59ef840e3a529e16.js",
+  "precache-manifest.3d743680c706b46daeb5ae6c4a99c03e.js": "/precache-manifest.3d743680c706b46daeb5ae6c4a99c03e.js",
   "service-worker.js": "/service-worker.js",
   "static/css/2.8296753c.chunk.css.map": "/static/css/2.8296753c.chunk.css.map",
   "static/css/main.c467da7a.chunk.css.map": "/static/css/main.c467da7a.chunk.css.map",
@@ -17,23 +16,4 @@
   "static/media/moon.jpg": "/static/media/moon.35622a1c.jpg",
   "static/media/space.jpg": "/static/media/space.e3ff537c.jpg",
   "static/media/venus.jpg": "/static/media/venus.dec4665d.jpg"
-=======
-  "main.css": "/static/css/main.9bb9041c.chunk.css",
-  "main.js": "/static/js/main.2e06dd8b.chunk.js",
-  "main.js.map": "/static/js/main.2e06dd8b.chunk.js.map",
-  "static/css/1.c26442ea.chunk.css": "/static/css/1.c26442ea.chunk.css",
-  "static/js/1.f60eb878.chunk.js": "/static/js/1.f60eb878.chunk.js",
-  "static/js/1.f60eb878.chunk.js.map": "/static/js/1.f60eb878.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/moon.jpg": "/static/media/moon.35622a1c.jpg",
-  "static/media/venus.jpg": "/static/media/venus.dec4665d.jpg",
-  "static/media/space.jpg": "/static/media/space.e3ff537c.jpg",
-  "static/media/logop.png": "/static/media/logop.3196dfab.png",
-  "static/css/1.c26442ea.chunk.css.map": "/static/css/1.c26442ea.chunk.css.map",
-  "static/css/main.9bb9041c.chunk.css.map": "/static/css/main.9bb9041c.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.e1d331fbe087e849faa2fc905ed105a8.js": "/precache-manifest.e1d331fbe087e849faa2fc905ed105a8.js",
-  "service-worker.js": "/service-worker.js"
->>>>>>> 5672acab5cf969a6ec0a9744f950a5b02c3b7a67
 }
