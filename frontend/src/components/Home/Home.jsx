@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React, {useEffect, useState} from 'react';
-=======
-import React, {useEffect} from 'react';
->>>>>>> 5672acab5cf969a6ec0a9744f950a5b02c3b7a67
 import './Home.css';
 import * as THREE from "three";
 //import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
@@ -25,11 +21,8 @@ import { MouseOutlined } from '@mui/icons-material';
 
 const Home = ({timelines, skills}) => {
 
-<<<<<<< HEAD
     const [text, setText] = useState('');
     const sentence = "Hi!! my name is Ankita";
-=======
->>>>>>> 5672acab5cf969a6ec0a9744f950a5b02c3b7a67
 
     useEffect(() => {
 
@@ -103,10 +96,7 @@ const Home = ({timelines, skills}) => {
         }
         animate();
 
-<<<<<<< HEAD
         
-=======
->>>>>>> 5672acab5cf969a6ec0a9744f950a5b02c3b7a67
         window.addEventListener("scroll", (e)=>{
             camera.rotation.y = window.scrollY* 0.003;
             const skillBox = document.getElementById("homeSkillsBox");
@@ -117,7 +107,6 @@ const Home = ({timelines, skills}) => {
                 skillBox.style.animationName = "homeSkillsBoxAnimationOff";
             }
         })
-<<<<<<< HEAD
         let currentIndex = 0;
 
         const typingInterval = setInterval(() => {
@@ -132,21 +121,15 @@ const Home = ({timelines, skills}) => {
         return () => {
           clearInterval(typingInterval);
         };
-=======
->>>>>>> 5672acab5cf969a6ec0a9744f950a5b02c3b7a67
     }, []);
     
   return (
     <div className='home'>
         <canvas className='homeCanvas'></canvas>
         <div className="homeCanvasContainer">
-<<<<<<< HEAD
         <div className="typing-effect">
                 <span>{text}</span>
             </div>
-=======
-            <h1>Hi, my name is Ankita</h1>
->>>>>>> 5672acab5cf969a6ec0a9744f950a5b02c3b7a67
             <div className="homeScrollBtn">
                 <MouseOutlined/>
             </div>
