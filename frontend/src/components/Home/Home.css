@@ -238,3 +238,10 @@
     }
   }
   
+@media screen and (max-width: 768px) {
+    .typing-effect span{
+        font-size: 2rem;
+        white-space: pre-wrap; 
+      overflow-wrap: break-word; 
+    }
+}
